@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+/*.hidden {
+	display: none;
+}*/
+
+body {
+	font-family: 'Fira Sans Condensed', sans-serif;
+	font-size: 1em;
+}
+
+.container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+header, .current-score-box {
+	margin: 0 2.5%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+header {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+header h1 {
+	margin: 0 15px 0 0;
+	font-size: 46px;
+	font-weight: 900;
+}
+
+header h1, header p {
+	display: inline-block;
+}
+
+header p {
+	margin: 0;
+}
+
+.question-box {
+	padding: 0 15px;
+	margin: 0 2.5% 15px 2.5%;
+}
+
+.question-box p, .question-box h2 {
+	margin: 0;
+}
+
+.question-counter {
+	margin: 10px 0 0 0;
+}
+
+.question {
+	margin-top: 0;
+}
+
+.answer-box {
+	border: 1px solid Gainsboro;
+	display: inline-block;
+	background-color: white;
+	width: 45%;
+	height: 150px;
+	margin: 0 2.5% 30px 2.5%;
+}
+
+.answer-box:hover {
+	border: 2px solid pink;
+}
+
+.message-box {
+	padding: 150px 100px;
+}
+
+.message-box, .message-button {
+	margin: 0 auto;
+}
+
+.message-button {
+	display: block;
+}
+
+.message {
+	text-align: center;
+}
+
+.gray-border {
+	border: 2px solid Gainsboro;
+}
+
+.green-border {
+	border: 2px solid green;
+}
+
+.red-border {
+	border: 2px solid red;
+}
+
+.current-score-box p {
+	margin-top: 0;
+	text-align: right;
+	font-size: 26px;
+	color: gray;
+	font-weight: bold;
+}
