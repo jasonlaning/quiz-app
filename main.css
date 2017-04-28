@@ -8,11 +8,11 @@
 
 body {
 	font-family: 'Fira Sans Condensed', sans-serif;
-	font-size: 1em;
+	font-size: 1.2em;
 }
 
 .container {
-	max-width: 600px;
+	max-width: 900px;
 	margin: 0 auto;
 }
 
@@ -29,7 +29,7 @@ header {
 
 header h1 {
 	margin: 0 15px 0 0;
-	font-size: 46px;
+	font-size: 250%;
 	font-weight: 900;
 }
 
@@ -63,12 +63,12 @@ header p {
 	display: inline-block;
 	background-color: white;
 	width: 45%;
-	height: 150px;
+	height: 175px;
 	margin: 0 2.5% 30px 2.5%;
 }
 
 .answer-box:hover {
-	border: 2px solid pink;
+	border: 2px solid red;
 }
 
 .message-box {
@@ -102,7 +102,35 @@ header p {
 .current-score-box p {
 	margin-top: 0;
 	text-align: right;
-	font-size: 26px;
+	font-size: 175%;
 	color: gray;
 	font-weight: bold;
+}
+
+@media screen and (min-height: 1200px) {
+
+    body {
+		font-size: 1.7em;
+	}
+
+    .answer-box {
+    	height: 375px;
+    }
+
+    .message-box {
+		padding-top: 300px;
+		padding-bottom: 300px;
+	}
+}
+
+@media screen and (max-height: 700px) {
+ 
+     .answer-box {
+    	height: 80px;
+    }
+
+    .message-box {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
 }
